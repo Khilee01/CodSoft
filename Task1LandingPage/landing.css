@@ -1,0 +1,106 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.featured-products {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height:300px; 
+}
+
+.product h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 20px;
+    color: #ff6600;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+.about-us {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
