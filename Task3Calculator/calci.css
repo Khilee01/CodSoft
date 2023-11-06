@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+
+}
+
+.mainbgcontainer {
+    background-color: #352F44;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.calculatorContainer {
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    border:#FAF0E6 solid 1px;
+    min-width: 290px;
+    max-width: 500px;
+    background-color:#352F44;
+    height: 650px;
+    color: #B9B4C7;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.toDoOperation {
+    height: 10%;
+    width: 360px;
+    font-size:40px;
+    text-align:right;
+}
+
+.container {
+    margin: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nos {
+    border-radius: 3px;
+    width: 120px;
+    height: 60px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.no {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    background-color: #5C5470;
+    font-size: 40px;
+    border: #5C5470 solid 4px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
